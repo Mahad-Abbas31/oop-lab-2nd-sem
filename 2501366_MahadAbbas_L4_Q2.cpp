@@ -1,4 +1,18 @@
 /*
+Create a C++ class named Product with instance variables id, name, price, and quantity. Implement
+no-argument constructor to facilitate object initialization. Set access modifiers for id, name, price,
+and quantity attributes to private. Write getters and setters for all instance variables.
+Additionally, define the following methods within the Product class:
+1. displayDetails(): A public method to display the details of the product, including its name, price,
+and quantity.
+2. updatePrice(double newPrice): A public method to update the price of the product. It takes a new
+price as a parameter and updates the price attribute accordingly.
+3. calculateTotalCost(): A public method to calculate the total cost of the product based on its price
+and quantity. This method is used internally for cost calculation.
+4. discountPrice(double discountPercentage): A public method to apply a discount to the product's
+price. It takes a discount percentage as a parameter and reduces the price accordingly.
+5. In main(): create an array of 5 products, input details for each, display details, update prices, apply
+discount, and display total costs.
 */
 #include <iostream>
 
