@@ -1,0 +1,7 @@
+Ali 3 45000
+Sara 6 95000
+Ahmed 4 120000
+Hassan 2 30000
+Fatima 7 150000
+Amna 1 19000
+Fahad 4 180000
