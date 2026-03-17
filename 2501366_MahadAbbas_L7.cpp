@@ -55,10 +55,19 @@ public:
         return obj3;   // Return the original state before increment
     }
 
+    BankAccount operator-(BankAccount obj2){
+    
+        BankAccount obj3;
+        obj3.balance = balance - obj2.balance;
+        obj3.reward = reward -  obj2.reward;
+
+        return obj3;   // Return the original state before increment
+    }
+
 };
 
 int main(){
-    BankAccount obj1, obj2, total;
+    BankAccount obj1, obj2, total, less;
 
     cout << "Enter details for Account 1:\n";
     obj1.setData();
@@ -70,4 +79,7 @@ int main(){
     cout << "Total Account Details:\n";
     total.display();
 
+    less = obj1 - obj2;  // Use the overloaded - operator
+    cout << "Difference Account Details:\n";
+    less.display();
 }
