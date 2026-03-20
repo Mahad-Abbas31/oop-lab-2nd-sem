@@ -3,6 +3,11 @@
 This repository contains my Object Oriented Programming (OOP) lab work for the 2nd semester.  
 All programs are written in **C++** and cover fundamental to intermediate OOP concepts including constructors, dynamic memory, file handling, classes, objects, and more.
 
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Principles-brightgreen?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active_Learning-blue?style=for-the-badge)
+
 ---
 
 ## 📚 Repository Description
